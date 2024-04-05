@@ -1,0 +1,207 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answers": ["London", "Paris", "Berlin"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the largest mammal?",
+    "answers": ["Elephant", "Blue Whale", "Giraffe"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answers": ["H2O", "CO2", "NaCl"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answers": ["Earth", "Mars", "Venus"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answers": ["William Shakespeare", "Charles Dickens", "Jane Austen"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answers": ["Yen", "Dollar", "Euro"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answers": ["Ag", "Au", "Fe"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "answers": ["Mount Kilimanjaro", "Mount Everest", "Mount Fuji"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answers": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "answers": ["Sydney", "Canberra", "Melbourne"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "answers": ["O", "O2", "H2O"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Who invented the telephone?",
+    "answers": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answers": ["Heart", "Liver", "Skin"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which country is famous for its tulips?",
+    "answers": ["Netherlands", "Italy", "France"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answers": ["Alexander Fleming", "Louis Pasteur", "Marie Curie"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for carbon?",
+    "answers": ["C", "Ca", "Co"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the fastest land animal?",
+    "answers": ["Cheetah", "Lion", "Gazelle"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Who was the first man to walk on the moon?",
+    "answers": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for silver?",
+    "answers": ["Si", "Ag", "Sr"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the primary ingredient in guacamole?",
+    "answers": ["Tomato", "Avocado", "Onion"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which planet is known as the Morning Star and the Evening Star?",
+    "answers": ["Mercury", "Venus", "Mars"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "answers": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for sodium?",
+    "answers": ["S", "So", "Na"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which country is home to the kangaroo?",
+    "answers": ["New Zealand", "Australia", "South Africa"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who painted the 'Starry Night'?",
+    "answers": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "answers": ["Toronto", "Vancouver", "Ottawa"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "answers": ["Ir", "Fe", "Fr"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "answers": ["Harper Lee", "J.K. Rowling", "Stephen King"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which animal is known as the 'King of the Jungle'?",
+    "answers": ["Lion", "Tiger", "Gorilla"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for helium?",
+    "answers": ["H", "He", "Hu"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the largest ocean in the world?",
+    "answers": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Who composed the 'Moonlight Sonata'?",
+    "answers": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "answers": ["K", "Po", "Pt"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which country is famous for the Great Wall?",
+    "answers": ["China", "India", "Russia"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "answers": ["George Orwell", "J.R.R. Tolkien", "Aldous Huxley"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for lead?",
+    "answers": ["Pb", "Pl", "Ld"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the fastest bird in the world?",
+    "answers": ["Peregrine Falcon", "Hummingbird", "Ostrich"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "answers": ["Amelia Earhart", "Beryl Markham", "Jacqueline Cochran"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the chemical symbol for nitrogen?",
+    "answers": ["N", "Ni", "Ne"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "answers": ["China", "Japan", "Korea"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who discovered the theory of relativity?",
+    "answers": ["Isaac Newton", "Albert Einstein", "Galileo Galilei"],
+    "correctAnswerIndex": 1
+  }
+]
