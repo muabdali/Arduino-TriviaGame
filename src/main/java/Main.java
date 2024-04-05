@@ -67,6 +67,7 @@ public class Main {
                 e.printStackTrace();
             }
         }
+        // rules page, poorly done but only needs to be shown once so not very time efficient to "fix"
             display.clear();
             display.getCanvas().drawString(0, 0, "RULES: \n 1. You get 15 seconds for each question. " +
                     "2. To turn off the game, plug out the USB. " +
@@ -86,6 +87,8 @@ public class Main {
         // main question and answer selection process.
         while(true){
             display.clear();
+
+            // selecting question, assigning answers and answerindex to variables. if confused, look at JSON file's format.
             int randomNumber = random.nextInt(questions.length);
             System.out.println("Selected Question " + randomNumber);
             question = questions[randomNumber].question;
@@ -93,15 +96,16 @@ public class Main {
             ansaIndex = questions[randomNumber].correctAnswerIndex;
             displayQuestionsLoop displayQuestion = new displayQuestionsLoop(buttonPin, myLED, display, potPin, question ,ansa ,ansaIndex);
 
-
+            // check if user's answer and the real answer match up.
             int selectedAnswerIndex = displayQuestion.getAnswerSelectedIndex();
             afterAnswerDisplay afterAnswer = new afterAnswerDisplay(ansaIndex, selectedAnswerIndex, display, myLED);
-            boolean answerState = afterAnswer.afterAnswerDisplayReturn(ansaIndex, selectedAnswerIndex, display, myLED, (int) currentScore);
+            boolean answerState = afterAnswer.afterAnswerDisplayReturn(ansaIndex, selectedAnswerIndex, display, myLED, (int) currentScore, (int) highScore);
+            // answer was true, add 10 to the current score and repeat while loop.
             if (answerState){
                 currentScore = currentScore + 10;
 
             }else{
-                // Answer was false, exiting program.
+                // answer was false, exiting program.
                 System.exit(0);
             }
 

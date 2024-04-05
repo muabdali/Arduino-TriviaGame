@@ -10,8 +10,9 @@ public class afterAnswerDisplay {
     }
 
 
-    public boolean afterAnswerDisplayReturn(int correctAnswerIndex, int selectedAnswerIndex, SSD1306 display, Pin myLED, int currentScore) throws InterruptedException, IOException {
+    public boolean afterAnswerDisplayReturn(int correctAnswerIndex, int selectedAnswerIndex, SSD1306 display, Pin myLED, int currentScore, int highScore) throws InterruptedException, IOException {
         if (correctAnswerIndex == selectedAnswerIndex){
+            // if answer and user's input match
             currentScore = currentScore + 10;
             display.clear();
             display.getCanvas().drawString(0,0,String.valueOf(selectedAnswerIndex) + ": Correct Answer!");
@@ -21,11 +22,14 @@ public class afterAnswerDisplay {
             return true;
         }
         else{
+            // if user's answer is incorrect.
             display.clear();
             display.getCanvas().drawString(0,0, "Incorrect, Game Over! \n Final Score: " + currentScore);
             display.display();
             myLED.setValue(1);
-            writeScoreToFile(currentScore);
+            if(currentScore>highScore) {
+                writeScoreToFile(currentScore);
+            }
             Thread.sleep(5000);
             myLED.setValue(0);
             display.clear();
@@ -34,6 +38,7 @@ public class afterAnswerDisplay {
         }
     }
     private void writeScoreToFile(int score) {
+        // used at the end of the game, writes score to file.
         try (FileWriter writer = new FileWriter("src/details.json")) {
             Gson gson = new Gson();
             ScoreData scoreData = new ScoreData(score);
