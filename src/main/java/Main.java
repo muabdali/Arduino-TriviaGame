@@ -115,7 +115,7 @@ public class Main {
 
 
     }
-    private long readHighScoreFromJSON() {
+    long readHighScoreFromJSON() {
         try (FileReader reader = new FileReader("src/details.json")) {
             // Create Gson instance
             Gson gson = new Gson();
